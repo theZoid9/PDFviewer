@@ -1,5 +1,3 @@
-***Guide***
-
 Step 1: Basic Tkinter window with a load PDF Button
     - the first step is to create a basic Tkinter window with a button to load a PDF file. This setup will allow us to open the PDF file dialog
 
@@ -29,4 +27,3 @@ Step 4: Error Handling and User Experience Improvements
     - Improve the layout to ensure a smooth user experience 
  
 
- ***Add editing bar***
