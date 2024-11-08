@@ -12,10 +12,10 @@ Step 2: Load the PDF and Display the First page
 
     Note! 
       
-        pix = page.get_pixmap()  
-        img = Image.frombytes("RGB", [pix.width, pix.height], pix.samples)
+    pix = page.get_pixmap()  
+    img = Image.frombytes("RGB", [pix.width, pix.height], pix.samples)
         
-        This process converts the PDF page to an image format that Tkinter can display. PyMuPDF's Pixmap cannot directly be shown in Tkinter, but by converting it to a Pillow Image, we gain access to various display and manipulation options.
+    This process converts the PDF page to an image format that Tkinter can display. PyMuPDF's Pixmap cannot directly be shown in Tkinter, but by converting it to a Pillow Image, we gain access to various display and manipulation options.
 
 Step 3: Add navigation Buttons
     - Add "Next" and "Previous" buttons to the interface
